@@ -352,7 +352,22 @@ export class Home extends Component {
                                         <p>Israel</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
+
+                                <Carousel.Item>
+                                    <img height="38%" width="45%"
+                                        className="d-block w-100"
+                                        src="https://specials-images.forbesimg.com/imageserve/902925766/960x0.jpg?fit=scale"
+                                        alt="Fifth slide"
+                                    />
+
+                                    <Carousel.Caption>
+
+                                        <p>Thailand</p>
+                                    </Carousel.Caption>
+                                </Carousel.Item>
                             </Carousel>
+
+       
 
                             {/*  <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce28b353432b431a6df7_Europe.jpg" alt="" height="42%" width="45%" style={{ margin: '2.2%' }}></img> */}
     
@@ -370,7 +385,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', float: 'left', backgroundColor: 'white', marginLeft: '30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic1" style={{ cursor: 'pointer' }}></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic1" style={{ cursor: 'pointer'}} title="Click for more pictures"></img>
 
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
@@ -381,7 +396,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', backgroundColor: 'white', marginLeft: '-30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cf3bb35343d6881a6e52_Latin%20America.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic5"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cf3bb35343d6881a6e52_Latin%20America.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic5" style={{ cursor: 'pointer' }} title="Click for more pictures"></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>LATIN&nbsp;AMERICA</h3>
@@ -393,7 +408,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', float: 'left', backgroundColor: 'white', marginLeft: '30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cd6e1e6e1177e60575e8_Canada.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic2"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cd6e1e6e1177e60575e8_Canada.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic2" style={{ cursor: 'pointer' }} title="Click for more pictures"></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>CANADA</h3>
@@ -403,7 +418,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', backgroundColor: 'white', marginLeft: '-30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce54762831d920204679_victor-filippov-18111-unsplash.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic6"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce54762831d920204679_victor-filippov-18111-unsplash.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic6" title="Click for more pictures" style={{ cursor: 'pointer' }}></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>THAILAND</h3>
@@ -415,7 +430,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', float: 'left', backgroundColor: 'white', marginLeft: '30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cda29b93d77ba836bc15_China.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic3"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cda29b93d77ba836bc15_China.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic3" title="Click for more pictures" style={{ cursor: 'pointer' }}></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>CHINA</h3>
@@ -425,7 +440,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', backgroundColor: 'white', marginLeft: '-30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cfe49b93d7da5a36bea6_USA.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic7"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cfe49b93d7da5a36bea6_USA.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic7" title="Click for more pictures" style={{ cursor: 'pointer' }}></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>UNITED&nbsp;STATES</h3>
@@ -437,7 +452,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', float: 'left', backgroundColor: 'white', marginLeft: '30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce28b353432b431a6df7_Europe.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic4"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce28b353432b431a6df7_Europe.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic4" title="Click for more pictures" style={{ cursor: 'pointer' }}></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>EUROPE</h3>
@@ -447,7 +462,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', backgroundColor: 'white', marginLeft: '-30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367279222a7c68add2b346_ashwin-vaswani-1077803-unsplash-p-500.jpeg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic8"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367279222a7c68add2b346_ashwin-vaswani-1077803-unsplash-p-500.jpeg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic8" title="Click for more pictures" style={{ cursor: 'pointer' }}></img>
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
                                         <h3>AUSTRALIA</h3>

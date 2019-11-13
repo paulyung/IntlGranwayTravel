@@ -151,3 +151,10 @@ i {
     margin-top: 15px;
     
 }
+.carousel-control-prev{
+    margin-bottom: 80px;
+}
+
+.carousel-control-next {
+    margin-bottom: 80px;
+}
