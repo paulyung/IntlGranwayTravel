@@ -51,12 +51,12 @@ const customStyles = {
 ReactModal.setAppElement('#root')
 
 
-    //< AwesomeSlider >
-    //<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg" />
-    //<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce28b353432b431a6df7_Europe.jpg" />
-    //<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cf3bb35343d6881a6e52_Latin%20America.jpg" />
-    //<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce54762831d920204679_victor-filippov-18111-unsplash.jpg" />
-    //                        </AwesomeSlider >
+//< AwesomeSlider >
+//<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg" />
+//<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce28b353432b431a6df7_Europe.jpg" />
+//<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cf3bb35343d6881a6e52_Latin%20America.jpg" />
+//<div data-src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce54762831d920204679_victor-filippov-18111-unsplash.jpg" />
+//                        </AwesomeSlider >
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -247,15 +247,13 @@ export class Home extends Component {
         this.setState({ height: `66.59` })
         this.setState({ width: `100` })
 
-    }
-
-
+    };
 
     render() {
         return (
             <div>
 
-                <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c2d2fff6e2442ab9b8f13a9_one%20stop%20hero-p-2000.png" alt="home" style={{ width: '99.5%', height: 'auto', marginLeft: '0.5%' }} />
+                <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c2d2fff6e2442ab9b8f13a9_one%20stop%20hero-p-2000.png" alt="home" style={{ width: '99.5%', height: 'auto', marginLeft: '0.5%' }}></img>
 
 
                 <Modal show={this.state.show} handleClose={this.hideModal}>
@@ -272,9 +270,9 @@ export class Home extends Component {
                                 ))
                             }
                         </div>
-                        <LeftArrow goToPrevSlide={this.goToPrevSlide}/>
+                        <LeftArrow goToPrevSlide={this.goToPrevSlide} />
 
-                        <RightArrow goToNextSlide={this.goToNextSlide}/>
+                        <RightArrow goToNextSlide={this.goToNextSlide} />
                     </div>
                 </Modal>
 
@@ -285,21 +283,21 @@ export class Home extends Component {
                             <h1>Welcome!</h1>
                             <p>Check out our latest tour packages and get the best deals from us!</p>
                             <Button style={{ backgroundColor: '#2196f3' }} onClick={this.showModal}>TOURS</Button>
-                            {/*<div><a href="/tours" class="button">TOURS</a></div>*/}
+
                         </div>
                     </div>
                     <div style={{ backgroundColor: '#dddddd', display: 'inline-block', height: '100%', width: '50%' }}>
-                        {/* <div className="image-column w-col w-col-6"> */}
+
                         <div>
                             <Carousel>
                                 <Carousel.Item>
                                     <img
-                                        className="d-block w-100" style={{ height:'42%', width:'45%' }}
+                                        className="d-block w-100" style={{ height: '42%', width: '45%' }}
                                         src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg"
                                         alt="First slide"
                                     />
                                     <Carousel.Caption>
-                           
+
                                         <p>Japan</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -311,7 +309,7 @@ export class Home extends Component {
                                     />
 
                                     <Carousel.Caption>
-                                
+
                                         <p>Italy</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
@@ -367,10 +365,7 @@ export class Home extends Component {
                                 </Carousel.Item>
                             </Carousel>
 
-       
 
-                            {/*  <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68ce28b353432b431a6df7_Europe.jpg" alt="" height="42%" width="45%" style={{ margin: '2.2%' }}></img> */}
-    
                         </div>
 
 
@@ -385,7 +380,7 @@ export class Home extends Component {
                             <div style={{ display: 'inline-block', height: '100%', width: '50%', float: 'left', backgroundColor: 'white', marginLeft: '30%' }}>
                                 <div>
                                     <div style={{ display: 'inline-block' }}>
-                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic1" style={{ cursor: 'pointer'}} title="Click for more pictures"></img>
+                                        <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68cc889b93d7bda636bb21_Japan.jpg" height={this.state.height} width={this.state.width} alt="" onClick={this.showModal} id="pic1" style={{ cursor: 'pointer' }} title="Click for more pictures"></img>
 
                                     </div>
                                     <div style={{ display: 'inline-block', marginLeft: '25px' }}>
@@ -514,7 +509,9 @@ export class Home extends Component {
             </div>
 
         );
-    }
+    };
+
+
 
 
 }
@@ -526,7 +523,7 @@ const Modal = ({ handleClose, show, children }) => {
         <div className={showHideClassName}>
             <section className='modal-main'>
                 {children}
-                <button onClick={handleClose} style={{ float: 'right', marginRight: '10px', marginBottom:'5px' }}>Close</button>
+                <button onClick={handleClose} style={{ float: 'right', marginRight: '10px', marginBottom: '5px' }}>Close</button>
             </section>
         </div>
     );
@@ -547,7 +544,7 @@ const Slide = ({ image }) => {
 const LeftArrow = (props) => {
     return (
         <div className="backArrow arrow" onClick={props.goToPrevSlide}>
-       
+
             <i className="left"></i>
         </div>
     );
@@ -557,7 +554,7 @@ const LeftArrow = (props) => {
 const RightArrow = (props) => {
     return (
         <div className="nextArrow arrow" onClick={props.goToNextSlide}>
-           
+
             <i className="right"></i>
         </div>
     );
