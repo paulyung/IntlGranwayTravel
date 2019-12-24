@@ -38,7 +38,7 @@ export default class ContactUs extends Component {
             <div className="section" style={{ marginLeft: '20%', marginRight: '20%' }}>
                 <div className="w-container">
                     <h1 className="heading-10" style={{ textAlign: 'center' }}>Contact Us</h1>
-                    <div className="divider"></div>
+  
                     <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68a8d60512e9be42b5738d_connie%20y.png" alt="" className="profile-image" style={{ borderRadius: '50%', width: '84px', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}></img>
                     <div className="text-block">International Grandway is your One-Stop Travel Agency</div>
                     <p className="paragraph-64">
