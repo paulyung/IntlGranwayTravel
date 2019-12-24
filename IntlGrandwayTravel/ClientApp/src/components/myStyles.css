@@ -48,13 +48,25 @@
     -webkit-transition: box-shadow 150ms ease;
     transition: box-shadow 150ms ease;
     background-color:lightgray;
-    width:300px;
+    width:50%;
 }
-
+.form-label
+{
+    font-weight:bold;
+}
 .button.full-width
 {
     display: block;
-    width:38%;
+    width:50%;
     background-color:green;
 
 }
+
+.divider {
+    margin-top: 24px;
+    margin-bottom: 60px;
+    padding-top: 0;
+    background-color: rgba(0,0,0,.09);
+    text-align: left;
+}
+
