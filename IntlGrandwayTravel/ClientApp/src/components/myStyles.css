@@ -1,0 +1,60 @@
+﻿.container-3
+{
+    background-color:lightgoldenrodyellow;
+    margin-left:20%;
+    margin-right:20%;
+}
+.heading-74
+{
+    color:orange;
+}
+
+
+.w-inline-block {
+    display: block;
+    margin-bottom: 12px;
+    max-width: 100%;
+    float:left;
+}
+
+.w-row {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+}
+
+.w-col-4 {
+    width: 33.3333333%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.w-col-8 {
+    width: 66.6666667%;
+    position: relative;
+    float: left;
+    display: block;
+    padding-left: 10px;
+}
+
+.form-field {
+    min-height: 41px;
+    margin-right: 1px;
+    margin-bottom: 17px;
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.09);
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    background-color:lightgray;
+    width:300px;
+}
+
+.button.full-width
+{
+    display: block;
+    width:38%;
+    background-color:green;
+
+}

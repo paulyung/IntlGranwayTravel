@@ -39,11 +39,11 @@ export class NavMenu extends Component {
                                     <NavLink tag={Link} style={{ color: '#228B22', fontWeight: 'bold' }} to="/counter">Tour</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} style={{ color: '#228B22', fontWeight: 'bold' }} to="/fetch-data">Cruises</NavLink>
+                                    <NavLink tag={Link} style={{ color: '#228B22', fontWeight: 'bold' }} to="/Cruises">Cruises</NavLink>
                              
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink tag={Link} style={{ color: '#228B22', fontWeight: 'bold' }} to="/fetch-data">Contact Us</NavLink>
+                                    <NavLink tag={Link} style={{ color: '#228B22', fontWeight: 'bold' }} to="/about-us">Contact Us</NavLink>
                                 </NavItem>
                             </ul>
                         </Collapse>

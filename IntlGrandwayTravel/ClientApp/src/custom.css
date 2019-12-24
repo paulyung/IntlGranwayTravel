@@ -158,3 +158,30 @@ i {
 .carousel-control-next {
     margin-bottom: 80px;
 }
+
+.w-inline-block {
+    display: block;
+    margin-bottom: 12px; 
+    max-width: 100%
+}
+
+.w-row {
+    margin-left: -10px;
+    margin-right: -10px; 
+    display: block;
+}
+
+.w-col-4 {
+    width: 33.3333333%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.w-col-8 {
+    width: 66.6666667%;
+    position: relative;
+    float: left;
+    display: block;
+    padding-left: 10px;
+}

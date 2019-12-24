@@ -50,6 +50,8 @@ import NineClassicArgentinaChile from './components/NineClassicArgentinaChile';
 import ElevenPeruBolvia from './components/ElevenPeruBolvia';
 import TwelveKaleidoscopeOfPeru from './components/TwelveKaleidoscopeOfPeru';
 import ThirteenClassicBrazilArgentinaChile from './components/ThirteenClassicBrazilArgentinaChile';
+import Cruises from './components/Cruises';
+import ContactUs from './components/ContactUs';
 
 
 export default class App extends Component {
@@ -103,6 +105,8 @@ export default class App extends Component {
             <Route path='/11-peru-bolivia' component={ElevenPeruBolvia} />
             <Route path='/12-kaleidoscope-of-peru' component={TwelveKaleidoscopeOfPeru} />
             <Route path='/13-classic-brazil-argentina-chile' component={ThirteenClassicBrazilArgentinaChile} />
+            <Route path='/Cruises' component={Cruises} />
+            <Route path='/about-us' component={ContactUs} />
 
 
 

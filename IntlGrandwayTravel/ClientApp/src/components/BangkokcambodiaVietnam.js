@@ -1,10 +1,10 @@
 ﻿import React, { Component } from 'react';
-import styles from '../';
+import './myStyles.css';
 export default class BangkokcambodiaVietnam extends Component {
   render() {
     return (
-        //<div className="container-3 w-container">
-            <div className={styles.container-3}>
+       
+        <div className="container-3">
             <h3 className="heading-74">Bangkok, Cambodia &amp; Vietnam</h3>
             <div className="divider grey"></div>
             <p className="paragraph-22">
