@@ -96,81 +96,81 @@ export class Counter extends Component {
                        
                             <div data-w-tab="Asia &amp; Pacific" className="w-tab-pane w--tab-active" id="asia">
 
-                                <h1 className="heading-11" style={{ marginTop:'2%' }}>China</h1>
+                                <h1 className="heading-11" style={{ marginTop:'2%', display:'block' }}>China</h1>
 
-                                <a href="/10-classic-china" style={{ display: 'block', marginBottom: '12px', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366bb6a343b04d9956864c_Beijing.jpg" width="100%" alt=""></img>
+                                <a href="/10-classic-china" style={{ display: 'inline-block', width:'100%' }}>
+                                    <div>
+                                        <div style={{ width: '34%',  float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366bb6a343b04d9956864c_Beijing.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height:'100%',   float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                                             <h4 className="heading-40">10 Day Classic China</h4>
                                             <p className="paragraph-2">Beijing, Xian, Shanghai<br />From $1649 (Air &amp; Land)<br />'Mar - Nov 2019'</p>
                                         </div>
                                     </div>
                                 </a>
-                          
-                                <a href="/11-china-with-yangtze-river-cruise" style={{ display: 'block', marginBottom: '12px', maxWidth: '100%' }}>
-                                    <div style={{display: 'block',marginTop:'25%'}}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366b9a542c02721b93358d_Shanghai.jpg" width="100%"  alt=""></img>
+                               
+                                <a href="/11-china-with-yangtze-river-cruise" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%',  float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366b9a542c02721b93358d_Shanghai.jpg" width="100%" height="100%"  alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height:'100%',  float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                                             <h4 className="heading-41">11 Day Affordable China with Yangtze River Cruise</h4>
                                             <p className="paragraph-3">Beijing, Cruise, Shanghai<br />From $1549 (Air &amp; Land)<br />'Nov 2019 - Mar 2020'</p>
                                         </div>
                                     </div>
                                 </a>
-
-                                <a href="/14-china-tibet-discovery" style={{ display: 'block', marginBottom: '12px', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block', marginTop:'52%' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366c1219ea1e47a34305d4_Xian.jpg" width="100%"  alt=""></img>
+                       
+                                <a href="/14-china-tibet-discovery" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366c1219ea1e47a34305d4_Xian.jpg" width="100%" height="100%"  alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height: '100%',float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                                             <h4 className="heading-42">14 Day China and Tibet Discovery</h4>
                                             <p className="paragraph-4">Shanghai, Xian, Lhasa (Tibet), Beijing<br />From $2799 (Land only) or $3279 (Land &amp; Air)<br />'Apr - Oct 2019'<br /><em>Small groups</em></p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/15-china-chengdu-yangtze-river-cruise" style={{ display: 'block', marginBottom: '12px',  maxWidth: '100%' }}>
-                                    <div style={{ display: 'block', marginTop: '76%' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366b3b222a7c885cd28455_hangzhou.jpg" width="100%"  alt=""></img>
+                                <a href="/15-china-chengdu-yangtze-river-cruise" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%', float: 'left', display: 'block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366b3b222a7c885cd28455_hangzhou.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height: '100%', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-43">15 Day China with Chengdu &amp; 3 Day Yangtze River Cruise</h4>
                                             <p className="paragraph-4">Beijing, Xian, Chengdu, Cruise, Shanghai<br />From $2299 (land) or $2839 (air &amp; land) and up<br />'Mar - Oct 2019'</p>
                                         </div>
                                     </div>
                                 </a>
-                                <h1 className="heading-11" style={{ display: 'block', marginTop: '108%', textAlign:'left' }}>Japan</h1>
-                                <a href="/6-japan-kanto-delights" style={{ display: 'block', marginBottom: '12px',  maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366d4ff336ddf2c1d3648b_riccardo-chiarini-383136-unsplash.jpg" width="100%" alt=""></img>
+                                <h1 className="heading-11" style={{ display: 'block', marginTop: '8%', textAlign:'left' }}>Japan</h1>
+                                <a href="/6-japan-kanto-delights" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%',float: 'left', display: 'block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366d4ff336ddf2c1d3648b_riccardo-chiarini-383136-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height: '100%',  float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-44">6 Day Japan Kanto Delights</h4>
                                             <p className="paragraph-2">Tokyo, Kamakura, Mt Fuji, Yokohama<br />From $809 (Land only)</p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/6-japan-hokkaido" style={{ display: 'block', marginBottom: '12px', marginTop: '26%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366d66a343b064db568a98_manuel-cosentino-691602-unsplash.jpg" width="100%" alt=""></img>
+                                <a href="/6-japan-hokkaido" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%', float: 'left', display: 'block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366d66a343b064db568a98_manuel-cosentino-691602-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{width: '66%', height: '100%', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-45">6 Day Hokkaido</h4>
                                             <p className="paragraph-2">Sapporo, Hakodate, Lake Toya<br />From $849 (Land only)</p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/7-japan-kansai-classic" style={{ display: 'block', marginBottom: '12px', marginTop: '50%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/7-japan-kansai-classic" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366d9da343b0228b568b3d_sorasak-252182-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366d9da343b0228b568b3d_sorasak-252182-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-46">7 Day Japan Kansai Classic Journey</h4>
@@ -178,10 +178,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/7-japan-kansai-classic" style={{ display: 'block', marginBottom: '12px', marginTop: '74%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/7-japan-kansai-classic" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366e3df336ddb4f3d367af_nagoya.jpeg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366e3df336ddb4f3d367af_nagoya.jpeg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-47">7 Day Hokuriku Japan</h4>
@@ -189,10 +189,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/7-japan-kansai-classic" style={{ display: 'block', marginBottom: '12px', marginTop: '101%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/7-japan-kansai-classic" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366fbd19ea1e36c2430dc6_fukuoka.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c366fbd19ea1e36c2430dc6_fukuoka.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-48">7 Day Kyushu Experience Delights</h4>
@@ -200,44 +200,44 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/8-japan-honshu-classic" style={{ display: 'block', marginBottom: '12px', marginTop: '125%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36703d19ea1eb900430e10_osaka.jpg" width="100%" alt=""></img>
+                                <a href="/8-japan-honshu-classic" style={{ width: '100%',  display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36703d19ea1eb900430e10_osaka.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height:'100%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                                             <h4 className="heading-49">8 Day Honshu Classic Journey</h4>
                                             <p className="paragraph-2">Tokyo, Mt. Fuji, Nagoya, Kyoto, Nara, Osaka<br />From $1359 (Land only)</p>
                                         </div>
                                     </div>
                                 </a>
-                                <h1 className="heading-13" style={{ display: 'block', marginTop: '152%' }}>Thailand</h1>
-                                <a href="/9-central-thailand-river-kwai" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
-                                    <div style={{display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367163222a7cb2f9d2ad24_lisheng-chang-396821-unsplash.jpg" width="100%" alt=""></img>
+                                <h1 className="heading-13" style={{ display: 'block', marginTop: '8%' }}>Thailand</h1>
+                                <a href="/9-central-thailand-river-kwai" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367163222a7cb2f9d2ad24_lisheng-chang-396821-unsplash.jpg" width="100%" height="80%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%',  height:'80%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                                             <h4 className="heading-50">9 Day Central Thailand with River Kwai</h4>
                                             <p className="paragraph-2">Bangkok, Kanchanaburi, Ayutthaya<br />From $579 (Land only) or $1229 (Air &amp; Land)<br />'Aug 2019 - May 2020'</p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/10-central-thailand-river-kwai-pattaya" style={{ display: 'block', marginBottom: '12px', marginTop: '32%', maxWidth: '100%' }}>
-                                    <div style={{display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36716319ea1e3e524313b6_evan-krause-443485-unsplash.jpg" width="100%"  alt=""></img>
+                                <a href="/10-central-thailand-river-kwai-pattaya" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%',  float: 'left', display: 'block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36716319ea1e3e524313b6_evan-krause-443485-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', height: '100%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                                             <h4 className="heading-51">10 Day Central Thailand with River Kwai &amp; Pattaya</h4>
                                             <p className="paragraph-2">Bangkok, Kanchanaburi, Ayutthaya, Pattaya<br />From $749 (Land only) or $1399 (Air &amp; Land)<br />'Aug 2019 - May 2020'</p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/13-classic-thailand" style={{ display: 'block', marginBottom: '12px', marginTop: '56%', maxWidth: '100%' }}>
+                                <a href="/13-classic-thailand" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3671c5f15428119064df34_mathew-schwartz-691798-unsplash.jpg" width="100%"  alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3671c5f15428119064df34_mathew-schwartz-691798-unsplash.jpg" width="100%" height="100%"  alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-52">13 Day Classic Thailand</h4>
@@ -245,10 +245,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/16-classic-thailand-phuket" style={{ display: 'block', marginBottom: '12px', marginTop: '80%', maxWidth: '100%' }}>
+                                <a href="/16-classic-thailand-phuket" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367164542c02603c934681_humphrey-muleba-775463-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367164542c02603c934681_humphrey-muleba-775463-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-53">16 Day Classic Thailand with Phuket</h4>
@@ -256,11 +256,11 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <h1 className="heading-14" style={{ display: 'block', marginTop: '108%' }}>Vietnam/ Cambodia</h1>
-                                <a href="/essential-vietnam" style={{ display: 'block', marginBottom: '12px', marginTop: '6%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <h1 className="heading-14" style={{ display: 'block', marginTop: '8%' }}>Vietnam/ Cambodia</h1>
+                                <a href="/essential-vietnam" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68bd700bedee0ddaded6c3_Asia%2004.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b68bd700bedee0ddaded6c3_Asia%2004.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-54">8 Day Essential Vietnam</h4>
@@ -268,10 +268,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/classic-vietnam" style={{ display: 'block', marginBottom: '12px', marginTop: '34%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/classic-vietnam" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367504a343b0b2d656aba9_ammie-ngo-690967-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367504a343b0b2d656aba9_ammie-ngo-690967-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-55">12 Day Classic Vietnam</h4>
@@ -279,7 +279,7 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/15-cambodia-vietnam" style={{ display: 'block', marginBottom: '12px', marginTop: '59%', maxWidth: '100%' }}>
+                                <a href="/15-cambodia-vietnam" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{  display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
                                             <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3674e4222a7c68f7d2bade_h-ng-nguy-n-vi-t-706400-unsplash.jpg" width="100%" height="100%"  alt=""></img>
@@ -290,10 +290,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/bangkok-cambodia-vietnam" style={{ display: 'block', marginBottom: '12px', marginTop: '88%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/bangkok-cambodia-vietnam" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36768bf7e38408575b0af3_milada-vigerova-32030-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36768bf7e38408575b0af3_milada-vigerova-32030-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-57">17 Day Bangkok, Cambodia, and Vietnam</h4>
@@ -301,10 +301,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/19-central-thailand-vietnam" style={{ display: 'block', marginBottom: '12px', marginTop: '109%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/19-central-thailand-vietnam" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367704f15428c0d764ec24_warren-wong-223130-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367704f15428c0d764ec24_warren-wong-223130-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block' }}>
                                             <h4 className="heading-58">19 Day Central Thailand and Vietnam</h4>
@@ -312,34 +312,34 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <h1 className="heading-15" style={{ display: 'block', marginTop: '139%' }}>Malaysia/ Singapore</h1>
-                                <a href="/6-day-singapore-malaysia-delights" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36738319ea1e63eb431952_kelvin-zyteng-764527-unsplash.jpg" width="100%" alt=""></img>
+                                <h1 className="heading-15" style={{ display: 'block', marginTop: '8%' }}>Malaysia/ Singapore</h1>
+                                <a href="/6-day-singapore-malaysia-delights" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
+                                        <div style={{ width: '34%',  float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36738319ea1e63eb431952_kelvin-zyteng-764527-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block' }}>
+                                        <div style={{ width: '66%', float: 'left', display: 'inline-block' }}>
                                             <h4 className="heading-59">6 Day Singapore and Malaysia Delights</h4>
                                             <p className="paragraph-2">Singapore, Malacca, Genting Highland, Kuala Lumpur<br />From $699 (Land only)</p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/11-day-thailand-singapore-malaysia" style={{ display: 'block', marginBottom: '12px', marginTop: '34%', maxWidth: '100%' }} >
+                                <a href="/11-day-thailand-singapore-malaysia" style={{ width: '100%', display: 'inline-block' }} >
                                     <div style={{display: 'block' }}>
-                                        <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367424f7e38499ed5b056f_carles-rabada-761795-unsplash.jpg" width="100%" alt=""></img>
+                                        <div style={{ width: '34%',  float: 'left', display: 'inline-block' }}>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367424f7e38499ed5b056f_carles-rabada-761795-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
-                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block' }}>
+                                        <div style={{ width: '66%',  float: 'left', display: 'inline-block' }}>
                                             <h4 className="heading-60">11 Day Thailand, Singapore, and Malaysia</h4>
                                             <p className="paragraph-2">Bangkok, Pattaya, Singapore, Sentosa Island, Malacca, Kuala Lumpur, Genting<br />From $499 (Land only)</p>
                                         </div>
                                     </div>
                                 </a>
-                                <h1 className="heading-15" style={{ display: 'block', marginTop: '58%' }}>Taiwan</h1>
-                                <a href="/11-day-thailand-singapore-malaysia" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <h1 className="heading-15" style={{ display: 'block', marginTop: '8%' }}>Taiwan</h1>
+                                <a href="/11-day-thailand-singapore-malaysia" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3673b1f15428e1dd64e460_remi-yuan-569408-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3673b1f15428e1dd64e460_remi-yuan-569408-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-61">9 Day Discover Taiwan</h4>
@@ -347,10 +347,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/classic-taiwan-island" style={{ display: 'block', marginBottom: '12px', marginTop: '28%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/classic-taiwan-island" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3673bf19ea1e9035431985_rovin-ferrer-416116-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c3673bf19ea1e9035431985_rovin-ferrer-416116-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-62">8 Day Taiwan Island Classic</h4>
@@ -359,11 +359,11 @@ export class Counter extends Component {
                                     </div>
                                 </a>
                             
-                                <h1 className="heading-15" style={{ display: 'block', marginTop: '58%' }}>Australia &amp; New Zealand</h1>
-                                <a href="/12-classic-australia" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
+                                <h1 className="heading-15" style={{ display: 'block', marginTop: '8%' }}>Australia &amp; New Zealand</h1>
+                                <a href="/12-classic-australia" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367279222a7c68add2b346_ashwin-vaswani-1077803-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367279222a7c68add2b346_ashwin-vaswani-1077803-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-63">12 Day Classic Australia</h4>
@@ -371,10 +371,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/15-new-zealand-australia" style={{ display: 'block', marginBottom: '12px', marginTop: '28%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/15-new-zealand-australia" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367279f7e3847cba5b0301_tyler-lastovich-575635-unsplash.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c367279f7e3847cba5b0301_tyler-lastovich-575635-unsplash.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-64">15 Day New Zealand and Australia</h4>
@@ -386,11 +386,11 @@ export class Counter extends Component {
                                 </div>
                  
                             <div data-w-tab="North America" className="w-tab-pane" id="northamerica">
-                                <h1 className="heading-11" style={{ display: 'block', marginTop: '56%' }}>Canada</h1>
-                                <a href="/4-highlights-of-vancouver" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
+                                <h1 className="heading-11" style={{ display: 'block', marginTop: '8%' }}>Canada</h1>
+                                <a href="/4-highlights-of-vancouver" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba027bd894feb337eee1af2_Vancouver%2C%20Victoria.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba027bd894feb337eee1af2_Vancouver%2C%20Victoria.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-38">4 Day Highlights of Vancouver, Victoria</h4>
@@ -398,10 +398,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/7-rocky-mountain" style={{ display: 'block', marginBottom: '12px', marginTop: '28%', maxWidth: '100%' }}>
+                                <a href="/7-rocky-mountain" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba029c13943f84b8d5b8b2e_rocky%20mountain.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba029c13943f84b8d5b8b2e_rocky%20mountain.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-39">7 Day Rocky Mountain</h4>
@@ -409,11 +409,11 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <h1 className="heading-11" style={{ display: 'block', marginTop: '52%' }}>USA</h1>
-                                <a href="/5-oregon" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <h1 className="heading-11" style={{ display: 'block', marginTop: '8%' }}>USA</h1>
+                                <a href="/5-oregon" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba03da364c02efe48f6b34e_oregon.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba03da364c02efe48f6b34e_oregon.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-36">5 Day Oregon Crater Lake Deluxe</h4>
@@ -421,10 +421,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/8-yellowstone-mt-rushmore-horseshoe-bend-antelope-canyon" style={{ display: 'block', marginBottom: '12px', marginTop: '28%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/8-yellowstone-mt-rushmore-horseshoe-bend-antelope-canyon" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba03e2400aac85e3434c56c_horseshoe%20bend.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba03e2400aac85e3434c56c_horseshoe%20bend.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-37">8 Day Yellowstone, Mt.Rushmore, Horseshoe Bend, Antelope Canyon Bus Tour </h4>
@@ -432,10 +432,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/7-east-coast-deluxe" style={{ display: 'block', marginBottom: '12px', marginTop: '52%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/7-east-coast-deluxe" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0404d59ac8efe381b967c_niagra%20falls.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0404d59ac8efe381b967c_niagra%20falls.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-37">7 Day East Coast Deluxe</h4>
@@ -443,10 +443,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/8-texas-panorama-tour" style={{ display: 'block', marginBottom: '12px', marginTop: '76%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/8-texas-panorama-tour" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0405754a687d2b86704d9_texas.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0405754a687d2b86704d9_texas.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-37">7 Day Texas Tour</h4>
@@ -454,10 +454,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/5-chicago" style={{ display: 'block', marginBottom: '12px', marginTop: '129%', maxWidth: '100%' }}>
+                                <a href="/5-chicago" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0406a00aac86e6234c6bf_chicago.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0406a00aac86e6234c6bf_chicago.jpg" width="100%" height="100%" alt=""></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-37">4 or 5 Days Chicago City Tour</h4>
@@ -467,11 +467,11 @@ export class Counter extends Component {
                                 </a>
                             </div>
                             <div data-w-tab="Europe" className="w-tab-pane">
-                                <h1 className="heading-11" style={{ display: 'block', marginTop: '158%' }}>Europe</h1>
-                                <a href="/8-essential-greece" target="_blank" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <h1 className="heading-11" style={{ display: 'block', marginTop: '8%' }}>Europe</h1>
+                                <a href="/8-essential-greece" target="_blank" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba003dcaa89c638cac101b0_greece.jpg" width="100%" alt="" className="image-4"></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba003dcaa89c638cac101b0_greece.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-31">8 Day Essential Greece</h4>
@@ -479,10 +479,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/8-affordable-central-europe" target="_blank" style={{ display: 'block', marginBottom: '12px', marginTop: '28%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/8-affordable-central-europe" target="_blank" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba003f74fd32d1cca949928_vienna.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba003f74fd32d1cca949928_vienna.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-30">8 Day Affordable Central Europe</h4>
@@ -490,10 +490,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/10-affordable-germany-switzerland-austria" target="_blank" style={{ display: 'block', marginBottom: '12px', marginTop: '52%', maxWidth: '100%' }}>
+                                <a href="/10-affordable-germany-switzerland-austria" target="_blank" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{  display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba004058a634e6f39fd771d_switzerland.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba004058a634e6f39fd771d_switzerland.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-29">10 Day Affordable Germany, Switzerland and Austria</h4>
@@ -501,10 +501,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/10-affordable-central-europe-with-berlin" target="_blank" style={{ display: 'block', marginBottom: '12px', marginTop: '76%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/10-affordable-central-europe-with-berlin" target="_blank" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba00665e5a74aa1fe050b27_berlin.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba00665e5a74aa1fe050b27_berlin.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-35">10 Day Central Europe with Berlin</h4>
@@ -512,10 +512,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/10-classic-baltics" target="_blank" style={{ display: 'block', marginBottom: '12px', marginTop: '100%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/10-classic-baltics" target="_blank" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba00674b35eb053800410b3_baltics.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba00674b35eb053800410b3_baltics.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-32">10 Day Classic Baltics</h4>
@@ -523,10 +523,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/11-affordable-portugal-spain" target="_blank" style={{ display: 'block', marginBottom: '12px', marginTop: '124%', maxWidth: '100%' }}>
+                                <a href="/11-affordable-portugal-spain" target="_blank" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0078ec492f6aa94865373_spain.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba0078ec492f6aa94865373_spain.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-33">11 Day Affordable Portugal &amp; Spain</h4>
@@ -534,10 +534,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a target="_blank" href="/12-affordable-albania-montenegro-croatia-slovenia" style={{ display: 'block', marginBottom: '12px', marginTop: '148%', maxWidth: '100%' }}>
+                                <a target="_blank" href="/12-affordable-albania-montenegro-croatia-slovenia" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{  display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba00761a71e045840c06402_Croatia.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5ba00761a71e045840c06402_Croatia.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-34">12 Day Affordable Albania, Montenegro, Croatia &amp; Slovenia</h4>
@@ -547,11 +547,11 @@ export class Counter extends Component {
                                 </a>
                             </div>
                             <div data-w-tab="Latin America" className="w-tab-pane">
-                                <h1 className="heading-11" style={{ display: 'block', marginTop: '172%' }}>Latin America</h1>
-                                <a href="/7-peru-machu-picchu" style={{ display: 'block', marginBottom: '12px', marginTop: '4%', maxWidth: '100%' }}>
+                                <h1 className="heading-11" style={{ display: 'block', marginTop: '8%' }}>Latin America</h1>
+                                <a href="/7-peru-machu-picchu" style={{ width: '100%', display: 'inline-block' }}>
                                     <div style={{display: 'block' }}>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffd35aa89c6c941c0f8a3_Peru%2C%20Machu%20Picchu.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffd35aa89c6c941c0f8a3_Peru%2C%20Machu%20Picchu.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-23">7 Day Peru &amp; Machu Picchu</h4>
@@ -559,10 +559,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/8-affordable-colombia" style={{ display: 'block', marginBottom: '12px', marginTop: '28%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/8-affordable-colombia" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffd42af345eaa271c560d_Colombia.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffd42af345eaa271c560d_Colombia.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-24">8 Day Affordable Colombia</h4>
@@ -570,21 +570,21 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/9-classic-argentina-chile" style={{ display: 'block', marginBottom: '12px', marginTop: '52%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/9-classic-argentina-chile" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffd56b2aaf0a52138db1a_Argentina%2C%20Chile.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffd56b2aaf0a52138db1a_Argentina%2C%20Chile.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
-                                        <div style={{ width: '667%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
+                                        <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-25">9 Day Classic Argentina &amp; Chile with Mendoze Wine Country</h4>
                                             <p className="paragraph-2">Buenos Aires, Mendoza, Santiago<br />From $1549 (Land only) or $2539 (Air &amp; Land)<br />'Jan - Dec 2019'</p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/11-peru-bolivia" style={{ display: 'block', marginBottom: '12px', marginTop: '76%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/11-peru-bolivia" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9fff16aa89c6c411c0fab6_bolivia.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9fff16aa89c6c411c0fab6_bolivia.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-26">11 Day Affordable Peru and Bolivia</h4>
@@ -592,10 +592,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/12-kaleidoscope-of-peru" style={{ display: 'block', marginBottom: '12px', marginTop: '120%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/12-kaleidoscope-of-peru" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffe6db2aaf028b538dbab_peru.jpg" width="100%" alt=""></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffe6db2aaf028b538dbab_peru.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-27">12 Day Kaleidoscope of Peru </h4>
@@ -603,10 +603,10 @@ export class Counter extends Component {
                                         </div>
                                     </div>
                                 </a>
-                                <a href="/13-classic-brazil-argentina-chile" style={{ display: 'block', marginBottom: '12px', marginTop: '144%', maxWidth: '100%' }}>
-                                    <div style={{ display: 'block' }}>
+                                <a href="/13-classic-brazil-argentina-chile" style={{ width: '100%', display: 'inline-block' }}>
+                                    <div>
                                         <div style={{ width: '34%', position: 'relative', float: 'left', display: 'block' }}>
-                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffbe58a634e184afd6969_Brazil%2C%20Argentina.jpg" width="100%" alt="" className="image-3"></img>
+                                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5b9ffbe58a634e184afd6969_Brazil%2C%20Argentina.jpg" width="100%" alt="" height="100%"></img>
                                         </div>
                                         <div style={{ width: '66%', position: 'relative', float: 'left', display: 'block', paddingLeft: '10px' }}>
                                             <h4 className="heading-28">13 Day Classic Brazil, Argentina, and Chile</h4>
