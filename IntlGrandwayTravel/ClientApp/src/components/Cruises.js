@@ -3,17 +3,17 @@ import './myStyles.css';
 export default class Cruises extends Component {
   render() {
     return (
-        <div className="section-title-group" >
-            <h2 className="section-heading centered" style={{ textAlign: 'center' }}>Cruises</h2>
+        <div className="section-title-group" style={{ marginLeft: '20%', marginTop: '2%' }} >
+            <h2 className="section-heading centered" style={{ marginLeft: '30%' }}>Cruises</h2>
 
-            <div className="w-tab-content" style={{ marginLeft: '25%', marginTop:'2%' }}>
+            <div className="w-tab-content" >
 
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a0fea343b0b2f756fab4_Mexican%20Riviera%2002.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a0fea343b0b2f756fab4_Mexican%20Riviera%2002.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ paddingLeft:'15%' }}>
+                        <div style={{ width: '66%',  float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-40">7 Day Mexican Riviera</h4>
                             <p className="paragraph-2">
                                 Los Angeles, Cabo San Lucas, Mazatlan Mexico, Puerto Vallarta Mexico<br />
@@ -24,13 +24,14 @@ export default class Cruises extends Component {
                             </p>
                         </div>
                     </div>
+
                 </a>
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a47f542c0265fc93a8e0_Screen%20Shot%202019-01-09%20at%205.48.34%20PM.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a47f542c0265fc93a8e0_Screen%20Shot%202019-01-09%20at%205.48.34%20PM.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ paddingLeft: '9%' }}>
+                        <div style={{ width: '66%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-41">7 Day Eastern Caribbean</h4>
                             <p className="paragraph-3">
                                 Ft. Lauderdale Florida, Princess Cays Bahamas, St. Thomas U.S. Virgin Islands, St. Maarten<br />
@@ -41,12 +42,12 @@ export default class Cruises extends Component {
                         </div>
                     </div>
                 </a>
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a111a343b0b89956faba_Western%20Caribbean%2002.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a111a343b0b89956faba_Western%20Caribbean%2002.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ paddingLeft: '10%' }}>
+                        <div style={{ width: '66%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-43">7 Days Western Caribbean</h4>
                             <p className="paragraph-4">
                                 Ft. Lauderdale Florida, Grand Cayman, Roatan Honduras, Belize City, Cozumel Mexico<br />
@@ -58,12 +59,12 @@ export default class Cruises extends Component {
                         </div>
                     </div>
                 </a>
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a290a343b01abb56fb8d_Screen%20Shot%202019-01-09%20at%205.40.09%20PM.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a290a343b01abb56fb8d_Screen%20Shot%202019-01-09%20at%205.40.09%20PM.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ paddingLeft: '-10%' }}>
+                        <div style={{ width: '66%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-44">7 Days Mediterranean &amp; Aegean (From Rome)</h4>
                             <p className="paragraph-2">
                                 Rome Italy, Salerno Italy, Kotor Montenegro, Corfu Greece, Crete (Chania) Greece, Mykonos Greece, Athens (Piraeus) Greece<br />
@@ -73,12 +74,12 @@ export default class Cruises extends Component {
                         </div>
                     </div>
                 </a>
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a35b19ea1e894c436f63_Screen%20Shot%202019-01-09%20at%205.43.39%20PM.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a35b19ea1e894c436f63_Screen%20Shot%202019-01-09%20at%205.43.39%20PM.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ marginLeft: '-1%' }}>
+                        <div style={{ width: '66%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-45">10 Days Panama Canal with Costa Rica</h4>
                             <p className="paragraph-2">
                                 Ft. Lauderdale Florida, Falmouth Jamaica, Cartagena Colombia, Panama Canal, Colon Panama, Limon Costa Rica, Grand Cayman<br />
@@ -88,12 +89,12 @@ export default class Cruises extends Component {
                         </div>
                     </div>
                 </a>
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a510a343b0adba56fcba_Screen%20Shot%202019-01-09%20at%205.50.59%20PM.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a510a343b0adba56fcba_Screen%20Shot%202019-01-09%20at%205.50.59%20PM.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ marginLeft: '-1%' }}>
+                        <div style={{ width: '66%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-46">11 Days Scandinavia &amp; Russia</h4>
                             <p className="paragraph-2">
                                 Copenhagen Denmark, Stockholm Sweden, Helsinki Finland, St. Petersburg Russia, Tallinn Estonia, Berlin Germany, Oslo Norway<br />
@@ -104,12 +105,12 @@ export default class Cruises extends Component {
                         </div>
                     </div>
                 </a>
-                <a href="/10-classic-china" className="w-inline-block">
-                    <div className="w-row">
-                        <div className="w-col-4">
-                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a64e542c02facd93aee8_Screen%20Shot%202019-01-09%20at%205.56.12%20PM.png" alt=""></img>
+                <a href="/10-classic-china" style={{ display: 'inline-block', width: '100%' }}>
+                    <div>
+                        <div style={{ width: '34%', float: 'left', display: 'inline-block' }}>
+                            <img src="https://uploads-ssl.webflow.com/5b5f550bd9b73f66ddb448b9/5c36a64e542c02facd93aee8_Screen%20Shot%202019-01-09%20at%205.56.12%20PM.png" width='100%' height='100%' alt=""></img>
                         </div>
-                        <div className="w-col-8" style={{ marginLeft: '-8%' }}>
+                        <div style={{ width: '66%', float: 'left', display: 'inline-block', paddingLeft: '10px' }}>
                             <h4 className="heading-47">12 Days British Isles (with Kirkwall)</h4>
                             <p className="paragraph-2">
                                 London (Southampton) England, Guernsey (St. Peter Port), Cork Ireland, Dublin Ireland, Belfast Northern Ireland, Glasgow (Greenock) Scotland, Orkney Islands (Kirkwall) Scotland, Invergordon Scotland, Edinburgh Scotland, Paris/Normandy (Le Havre) France<br />

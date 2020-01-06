@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { TourNavMenu } from './TourNavMenu';
 export class Counter extends Component {
   static displayName = Counter.name;
 
@@ -70,25 +70,27 @@ export class Counter extends Component {
                 <div className="section-title-group" style={{ marginLeft: '20%', width: '60%' }}>
                     <h2 className="section-heading centered" style={{ textAlign: 'center' }}>Tours</h2>
                     <div data-duration-in="300" data-duration-out="100" className="w-tabs">
+                        {/*   <NavMenu /> */}
+                        {/* <TourNavMenu /> */}
                         <div style={{ backgroundColor: 'green', height: '40px' }}>
                             <div style={{ width: '25%', float: 'left' }}>
                                 <span style={{ float: 'left', cursor: 'pointer' }}  onClick={this.handleClick}  id="asia">
-                                    <div style={{ color: 'white', marginTop: '5px', marginLeft: '5px' }}>Asia &amp; Pacific</div>
+                                    <div style={{ color: 'white', marginTop: '5px', marginBottom: '5px', paddingBottom:'5px' }}>Asia &amp; Pacific</div>
                                 </span>
                             </div>
                             <div style={{ width: '25%', float: 'left' }}>
                                 <span style={{ float: 'left', cursor: 'pointer' }} onClick={this.handleClick} id="northamerica">
-                                    <div style={{ color: 'white', marginTop: '5px' }}>North America</div>
+                                    <div style={{ color: 'white', marginTop: '5px', marginBottom: '5px', paddingBottom: '5px'}}>North America</div>
                                 </span>
                             </div>
                             <div style={{ width: '25%', float: 'left' }}>
                                 <span style={{ float: 'left', cursor: 'pointer' }} onClick={this.handleClick} id="europe">
-                                    <div style={{ color: 'white', marginTop: '5px' }}>Europe</div>
+                                    <div style={{ color: 'white', marginTop: '5px', marginBottom: '5px', paddingBottom: '5px' }}>Europe</div>
                                 </span>
                             </div>
                             <div style={{ width: '25%', float: 'left' }}>
                                 <span style={{ float: 'left', cursor: 'pointer' }} onClick={this.handleClick} id="latinamerica">
-                                    <div style={{ color: 'white', marginTop: '5px' }}>Latin America</div>
+                                    <div style={{ color: 'white', marginTop: '5px', marginBottom: '5px', paddingBottom: '5px' }}>Latin America</div>
                                 </span>
                             </div>
                         </div>
